@@ -1,0 +1,413 @@
+{
+  "report_generated_for": "2025-11-11",
+  "locations": [
+    {
+      "name": "Rudee Inlet",
+      "coordinates": [36.82752326471925, -75.98050535781512],
+      "day": "Saturday",
+      "rating": "good",
+      "summary": "A rising to falling tide around the morning window should trigger feeding activity in the inlet channel. The water temperature is around the November average (~58-60°F) which still allows for decent activity. Wind and current are moderate and the inlet is relatively sheltered from open bay conditions.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "10-12 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["sheltered inlet", "transitioning tide early window", "cool but active water"]
+      },
+      "color": "green"
+    },
+    {
+      "name": "Rudee Inlet",
+      "coordinates": [36.82752326471925, -75.98050535781512],
+      "day": "Sunday",
+      "rating": "okay",
+      "summary": "Sunday’s tide has a high tide early at 6:38 AM then a low near 12:53 PM, offering a moderate window for activity. Water temp remains cool which may slow the bite compared to peak season. Wind may pick up later in the morning reducing kayak comfort but early start still viable.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "12-15 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["early high tide reduces prime window", "protected water still an advantage", "cool water may dampen bite"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "64th Street Boat Ramp",
+      "coordinates": [36.88868936574738, -76.0173732545823],
+      "day": "Saturday",
+      "rating": "okay",
+      "summary": "Tide timing is similar to the inlet but less geographic shelter from wind and open bay fetch may impact comfort. Water temperature remains in the upper 50s which is on the chilly side but still productive for some species. Kayak anglers should favour early morning and stay closer to structure for best results.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "10-14 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["less sheltered than inlet", "structure near ramp useful", "cool water pushes fish near structure"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "64th Street Boat Ramp",
+      "coordinates": [36.88868936574738, -76.0173732545823],
+      "day": "Sunday",
+      "rating": "bad",
+      "summary": "Sunday’s window sees a high tide early and low tide around midday, but wind and open water conditions are likely to make kayaking more challenging. With water temperature still cool and less shelter, the bite may be slower and comfort lower. Unless you launch very early and stay nearshore structure, success may be limited.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "14-18 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["windier open bay area", "cool water slows fish", "less prime structure available"]
+      },
+      "color": "red"
+    },
+    {
+      "name": "Lynnhaven Boat Ramp",
+      "coordinates": [36.89640142292292, -76.0927833651844],
+      "day": "Saturday",
+      "rating": "good",
+      "summary": "The ramp offers access to calmer bay-arms and protection from stronger fetch; tide transitions align well in the morning hours. Water temps around ~59°F remain workable and many fish will be staging near structure and channels. Wind from the NW is moderate so paddling remains comfortable and productive early.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "9-12 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["protected bay arm", "good structure near launch", "cool water but fish near depth changes"]
+      },
+      "color": "green"
+    },
+    {
+      "name": "Lynnhaven Boat Ramp",
+      "coordinates": [36.89640142292292, -76.0927833651844],
+      "day": "Sunday",
+      "rating": "okay",
+      "summary": "Sunday brings a similar tide cycle but wind will pick up and the open bay connection may reduce comfort and stealth. Fish will still be active near structure but you’ll want to fish early and stay near shelter. Water temperature remains cool, so slower pace and targeted presentation recommended.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "12-15 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["bay opening fetch risk", "structure near ramp key", "cool water slows reaction-time"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "CBBT First Island",
+      "coordinates": [36.95137660534173, -76.1184558926058],
+      "day": "Saturday",
+      "rating": "okay",
+      "summary": "First Island offers deeper water and good structure but is exposed to bay winds and waves which may limit kayak comfort. The tide change is decent early morning but the open water increases risk and may reduce bite concentration. Water temperatures remain cool (~59°F) so fishing near structure or wrecks offers best chances.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "11-14 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["exposed deeper structure", "cool water pushes fish deeper", "wind fetch could hamper comfort"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "CBBT First Island",
+      "coordinates": [36.95137660534173, -76.1184558926058],
+      "day": "Sunday",
+      "rating": "bad",
+      "summary": "Sunday likely brings higher winds and less shelter, making paddling and positioning harder. The bite may be muted given cool water and less structure close to launch. Unless you’re confident in open-water kayak conditions, it’s a lower-chance outing.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "14-18 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["open bay exposed", "cool water deeper fish", "higher wind risk"]
+      },
+      "color": "red"
+    },
+    {
+      "name": "HRBT Norfolk Side",
+      "coordinates": [36.976294679503006, -76.3007005941211],
+      "day": "Saturday",
+      "rating": "good",
+      "summary": "This bridge-channel area features strong structure and tidal flows; morning tide transition should stir bait and gamefish. Despite cool water temps (~59°F) the current channel concentrates fish and makes for quality fishing. Wind from NW is reasonable in the deeper channel and kayak access is manageable early morning.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "10-13 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["bridge channel structure", "tidal current stir", "cool water but focused bite zone"]
+      },
+      "color": "green"
+    },
+    {
+      "name": "HRBT Norfolk Side",
+      "coordinates": [36.976294679503006, -76.3007005941211],
+      "day": "Sunday",
+      "rating": "okay",
+      "summary": "Sunday’s conditions are similar but wind and current may increase later in the session, reducing comfort. The bite near the bridge channel remains viable since structure is prime, though water temperature still cool. Best value early in your window where tide effect and structure align.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "12-15 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["bridge channel holds fish", "wind risk later morning", "cool water slows reaction"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "HRBT Hampton Side",
+      "coordinates": [37.00527555712451, -76.32249782369962],
+      "day": "Saturday",
+      "rating": "okay",
+      "summary": "This side of the bridge has similar structure but is more exposed to bay fetch and wind. Tide transitions are fair, but wind may hamper kayak access and noise may spook fish. Water temps are cool so focus near structure and keep presentations subtle.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "11-14 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["exposed bridge side", "structure present", "cool water demands subtlety"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "HRBT Hampton Side",
+      "coordinates": [37.00527555712451, -76.32249782369962],
+      "day": "Sunday",
+      "rating": "bad",
+      "summary": "Sunday’s wind and open exposure make this launch less comfortable and less predictable. Cool water and fetch mean fish may be less concentrated near the launch zone. Unless deep channel access is easy and boundary comfortable, this is a lower-chance spot.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "14-18 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["more exposed launch", "cool water deeper fish", "higher wind risk"]
+      },
+      "color": "red"
+    },
+    {
+      "name": "Lafayette River",
+      "coordinates": [36.891751661236654, -76.28609524133789],
+      "day": "Saturday",
+      "rating": "good",
+      "summary": "A relatively sheltered estuarine river run with earlier tide change is beneficial for morning bite and slower current that fits kayak fishing. Water temps ~59°F are decent and fish likely staging in shallow arms rather than deep bay. Wind impact is less than open bay, making this a comfortable option for early morning.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "8-11 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["sheltered river run", "shallow arms hold fish", "comfortable wind conditions"]
+      },
+      "color": "green"
+    },
+    {
+      "name": "Lafayette River",
+      "coordinates": [36.891751661236654, -76.28609524133789],
+      "day": "Sunday",
+      "rating": "okay",
+      "summary": "Sunday remains viable but wind may pick up and tide window shifts, reducing ideal bite time slightly. The river still offers shelter and structure though water remains cool and fish may be slower. Early launch recommended and stay near shallow flooded flats and creek arms for best chance.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "10-12 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["sheltered estuary", "shallow structure key", "cool water requires finesse"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "Elizabeth River Jordan Bridge",
+      "coordinates": [36.80740163873167, -76.28967377471284],
+      "day": "Saturday",
+      "rating": "okay",
+      "summary": "Bridge-channel area offers strong structure and moving water early, which is good for feeding fish on tide transitions. However wind and fetch on the Elizabeth River may still affect kayak comfort. Water temp is consistent with region (~59°F) so bite will be steady but not blazing.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "10-13 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["bridge channel structure", "tidal assist", "moderate wind risk"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "Elizabeth River Jordan Bridge",
+      "coordinates": [36.80740163873167, -76.28967377471284],
+      "day": "Sunday",
+      "rating": "bad",
+      "summary": "Wind and open exposure may make this site less comfortable and less safe for casual kayaking on Sunday morning. Although structure is present, fish may be less concentrated nearshore and bit rate slower due to cool water. Consider alternatives unless you’re comfortable with conditions.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "13-17 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["more exposed channel", "cool water slow bite", "higher wind challenge"]
+      },
+      "color": "red"
+    },
+    {
+      "name": "Kiptopeake",
+      "coordinates": [37.166073577522724, -75.99320828376531],
+      "day": "Saturday",
+      "rating": "okay",
+      "summary": "Open bay/wind-facing location with good structure but greater fetch and exposure make early morning preferable. Tide and water temperature (~58-60°F) are workable but comfort may be reduced by wind on paddle out. Use of heavier tackle and staying near structure advised.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "12-15 mph",
+        "wind_direction": "NW",
+        "water_temp": "58°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["open bay exposure", "structure offshore", "cool water deeper fish"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "Kiptopeake",
+      "coordinates": [37.166073577522724, -75.99320828376531],
+      "day": "Sunday",
+      "rating": "bad",
+      "summary": "Wind and open bay exposure on Sunday likely reduce paddling comfort and fishing concentration. While fish may still be present, the risk and effort out-weigh advantage compared to more sheltered spots. Recommend staying closer inshore unless experienced and equipped for open-water kayak conditions.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "14-18 mph",
+        "wind_direction": "NW",
+        "water_temp": "58°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["high exposure open bay", "cool water deeper holding fish", "wind risk high"]
+      },
+      "color": "red"
+    },
+    {
+      "name": "Oyster Boat Ramp",
+      "coordinates": [37.290039300560736, -75.91719589388451],
+      "day": "Saturday",
+      "rating": "okay",
+      "summary": "Further out and more open water venue; structure available but wind and wave fetch larger. Tide and water temps are acceptable (~58°F) but comfort and safety reduce overall rating. Launch early and stay nearshore structure for best results.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "13-16 mph",
+        "wind_direction": "NW",
+        "water_temp": "58°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["open water ramp", "structure but fetch large", "cool water slower bite"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "Oyster Boat Ramp",
+      "coordinates": [37.290039300560736, -75.91719589388451],
+      "day": "Sunday",
+      "rating": "bad",
+      "summary": "Open water exposure increases wind and chop on Sunday, reducing paddling ease and bite window. Water still cool and structure often farther from shore making it harder for kayak access. Unless you’re experienced and comfortable with conditions, choose a more sheltered launch.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "15-18 mph",
+        "wind_direction": "NW",
+        "water_temp": "58°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["high fetch area", "structure deeper offshore", "cool water slows bite"]
+      },
+      "color": "red"
+    },
+    {
+      "name": "Back River Hampton",
+      "coordinates": [37.10308125316803, -76.32008232767723],
+      "day": "Saturday",
+      "rating": "good",
+      "summary": "Sheltered estuary with tide transition early window aligns for morning fishing. Structure and shallow arms likely concentrate fish given cool water (~59°F). Wind impact is minimal compared to open bay, making comfortable kayak conditions and good chance for action.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "8-10 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["sheltered back river", "shallow structure key", "early tide transition"]
+      },
+      "color": "green"
+    },
+    {
+      "name": "Back River Hampton",
+      "coordinates": [37.10308125316803, -76.32008232767723],
+      "day": "Sunday",
+      "rating": "okay",
+      "summary": "Wind may build and tide window shifts but the estuary still offers shelter and good structure. Water remains cool but fish likely concentrate in shallower arms and creeks. Early start recommended before midday wind pickup and movement slackens.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "10-12 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["sheltered creek system", "shallow water holds fish", "wind risk builds later morning"]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "Great Bridge Locks",
+      "coordinates": [36.73159714569583, -76.26877437511955],
+      "day": "Saturday",
+      "rating": "good",
+      "summary": "Freshwater/estuary locks with structure and tide‐influenced flow provide excellent early morning opportunities. Cooler water temperature (~59°F) means fish stage in predictable locations near structure/pylons. Wind is comparatively low and paddling conditions favorable early in the day.",
+      "hover_facts": {
+        "high_tide": "5:50 AM",
+        "low_tide": "12:02 PM",
+        "wind_speed": "7-9 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["lock/structure hold fish", "easy access launch", "mild wind conditions"]
+      },
+      "color": "green"
+    },
+    {
+      "name": "Great Bridge Locks",
+      "coordinates": [36.73159714569583, -76.26877437511955],
+      "day": "Sunday",
+      "rating": "okay",
+      "summary": "Wind and tide window may shift such that early morning is best option and midday may see slower activity. Water remains cool so fish may be slower but still concentrated by structure in the lock area. Launch early, stay near the lock and structure, and fish before conditions degrade.",
+      "hover_facts": {
+        "high_tide": "6:38 AM",
+        "low_tide": "12:53 PM",
+        "wind_speed": "9-11 mph",
+        "wind_direction": "NW",
+        "water_temp": "59°F",
+        "current_speed": "data unavailable",
+        "extra_notes": ["structure heavy area", "cool water but concentrated fish", "mid-morning wind increases"]
+      },
+      "color": "yellow"
+    }
+  ]
+}

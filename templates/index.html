@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayak Weather Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .header h1 i {
+            color: #667eea;
+        }
+
+        .report-info {
+            color: #7f8c8d;
+            font-size: 0.95em;
+            margin-bottom: 15px;
+        }
+
+        .report-info strong {
+            color: #2c3e50;
+        }
+
+        .day-toggle-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #ecf0f1;
+        }
+
+        .toggle-label {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 0.95em;
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+
+        .radio-option input[type="radio"] {
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+            accent-color: #667eea;
+        }
+
+        .radio-option label {
+            cursor: pointer;
+            font-weight: 500;
+            color: #2c3e50;
+            font-size: 0.95em;
+            margin: 0;
+            user-select: none;
+        }
+
+        .current-day {
+            font-weight: 700;
+            color: #667eea;
+            min-width: 100px;
+            font-size: 1.1em;
+            margin-left: auto;
+        }
+
+        .map-container {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            height: 600px;
+            position: relative;
+        }
+
+        .map-loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            display: none;
+        }
+
+        .map-loading.show {
+            display: block;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .info-section {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-section h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .location-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .location-card {
+            border: 1px solid #ecf0f1;
+            border-radius: 8px;
+            padding: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-left: 4px solid #95a5a6;
+        }
+
+        .location-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .location-card.good {
+            border-left-color: #2ecc71;
+            background: #f0fdf4;
+        }
+
+        .location-card.okay {
+            border-left-color: #f39c12;
+            background: #fffbeb;
+        }
+
+        .location-card.bad {
+            border-left-color: #e74c3c;
+            background: #fef2f2;
+        }
+
+        .location-name {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 1.05em;
+        }
+
+        .location-rating {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .location-card.good .location-rating {
+            background: #2ecc71;
+            color: white;
+        }
+
+        .location-card.okay .location-rating {
+            background: #f39c12;
+            color: white;
+        }
+
+        .location-card.bad .location-rating {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .location-details {
+            font-size: 0.9em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .location-details strong {
+            color: #2c3e50;
+        }
+
+        .tide-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            font-size: 0.85em;
+        }
+
+        .tide-item {
+            flex: 1;
+        }
+
+        .tide-item strong {
+            display: block;
+            color: #667eea;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .map-container {
+                height: 400px;
+            }
+
+            .location-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .day-toggle-section {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>
+                <i class="fas fa-map-location-dot"></i>
+                Kayak Weather Report
+            </h1>
+            <div class="report-info">
+                <i class="fas fa-calendar-alt"></i>
+                <strong>Report Generated:</strong> {{ report_generated }}
+            </div>
+
+            <!-- Day Toggle -->
+            <div class="day-toggle-section">
+                <span class="toggle-label">Select Day:</span>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="saturdayRadio" name="dayRadio" value="Saturday" checked>
+                        <label for="saturdayRadio">Saturday</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="sundayRadio" name="dayRadio" value="Sunday">
+                        <label for="sundayRadio">Sunday</label>
+                    </div>
+                </div>
+                <span class="current-day" id="currentDay">Saturday</span>
+            </div>
+        </div>
+
+        <!-- Map Container -->
+        <div class="map-container">
+            <div class="map-loading" id="mapLoading">
+                <div class="spinner"></div>
+                <p>Loading map...</p>
+            </div>
+            <div id="map"></div>
+        </div>
+
+        <!-- Location Information -->
+        <div class="info-section">
+            <h3>
+                <i class="fas fa-list"></i>
+                Locations for <span id="dayName">Saturday</span>
+            </h3>
+            <div class="location-grid" id="locationGrid">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentDay = 'Saturday';
+        let map = null;
+
+        // Initialize map
+        function initMap() {
+            // Create a basic map - will be replaced by server-rendered map
+            if (map === null) {
+                map = L.map('map').setView([36.9, -76.2], 9);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors',
+                    maxZoom: 19
+                }).addTo(map);
+            }
+        }
+
+        // Load map for specific day
+        async function loadMap(day) {
+            showMapLoading(true);
+            try {
+                const response = await fetch(`/map/${day}`);
+                const data = await response.json();
+
+                // Replace map container content
+                const mapDiv = document.getElementById('map');
+                mapDiv.innerHTML = data.map_html;
+
+                // Re-initialize the map with new content
+                if (map) {
+                    map.remove();
+                    map = null;
+                }
+
+                // Small delay to ensure DOM is ready
+                setTimeout(() => {
+                    const newMapDiv = document.getElementById('map');
+                    if (newMapDiv) {
+                        newMapDiv.innerHTML = data.map_html;
+                    }
+                }, 100);
+            } catch (error) {
+                console.error('Error loading map:', error);
+                document.getElementById('map').innerHTML = '<p>Error loading map</p>';
+            } finally {
+                showMapLoading(false);
+            }
+        }
+
+        // Load locations list
+        async function loadLocations(day) {
+            try {
+                const response = await fetch(`/api/locations/${day}`);
+                const data = await response.json();
+
+                const grid = document.getElementById('locationGrid');
+                grid.innerHTML = '';
+
+                data.locations.forEach(location => {
+                    const card = document.createElement('div');
+                    card.className = `location-card ${location.rating}`;
+                    card.innerHTML = `
+                        <div class="location-name">${location.name}</div>
+                        <span class="location-rating">${location.rating.toUpperCase()}</span>
+                        <div class="location-details">
+                            <strong>Summary:</strong><br>
+                            ${location.summary.substring(0, 100)}...
+                        </div>
+                        <div class="tide-info">
+                            <div class="tide-item">
+                                <strong>High Tide</strong>
+                                ${location.hover_facts.high_tide}
+                            </div>
+                            <div class="tide-item">
+                                <strong>Low Tide</strong>
+                                ${location.hover_facts.low_tide}
+                            </div>
+                        </div>
+                        <div class="tide-info">
+                            <div class="tide-item">
+                                <strong>Wind</strong>
+                                ${location.hover_facts.wind_speed}
+                            </div>
+                            <div class="tide-item">
+                                <strong>Temp</strong>
+                                ${location.hover_facts.water_temp}
+                            </div>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+            } catch (error) {
+                console.error('Error loading locations:', error);
+            }
+        }
+
+        // Show/hide loading indicator
+        function showMapLoading(show) {
+            const loader = document.getElementById('mapLoading');
+            if (show) {
+                loader.classList.add('show');
+            } else {
+                loader.classList.remove('show');
+            }
+        }
+
+        // Update day
+        function updateDay(day) {
+            currentDay = day;
+            document.getElementById('currentDay').textContent = day;
+            document.getElementById('dayName').textContent = day;
+            loadMap(day);
+            loadLocations(day);
+        }
+
+        // Radio button handlers
+        document.getElementById('saturdayRadio').addEventListener('change', function () {
+            if (this.checked) {
+                updateDay('Saturday');
+            }
+        });
+
+        document.getElementById('sundayRadio').addEventListener('change', function () {
+            if (this.checked) {
+                updateDay('Sunday');
+            }
+        });
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            initMap();
+            loadMap('Saturday');
+            loadLocations('Saturday');
+        });
+    </script>
+
+    <!-- Leaflet CSS and JS for map -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+</body>
+</html>
