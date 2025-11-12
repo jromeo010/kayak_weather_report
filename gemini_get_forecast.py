@@ -1,14 +1,15 @@
 import os
 import json
 from dotenv import load_dotenv
-from openai import OpenAI
+import google.generativeai as genai
 
 # Load environment variables from .env file
 load_dotenv()
 
-# Initialize the OpenAI client
-# Make sure you have OPENAI_API_KEY in your .env file
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Initialize the Gemini client
+# Make sure you have GEMINI_API_KEY in your .env file
+api_key = os.getenv("GEMINI_API_KEY")
+genai.configure(api_key=api_key)
 
 # Read the prompt from prompt.md
 with open('prompt.md', 'r', encoding="utf8") as file:
@@ -16,30 +17,28 @@ with open('prompt.md', 'r', encoding="utf8") as file:
 
 print(prompt_content)
 
-# Call OpenAI ChatGPT API
-response = client.chat.completions.create(
-    model="gpt-3.5-turbo",
-    messages=[
-        {
-            "role": "user",
-            "content": prompt_content
-        }
-    ],
-    temperature=0.7,
-    max_tokens=2000
+# Call Google Gemini API
+model = genai.GenerativeModel('gemini-2.5-flash')
+response = model.generate_content(
+    prompt_content,
+    generation_config={
+        'temperature': 0.7,
+        'max_output_tokens': 20000,
+    }
 )
 
 # Extract and display the response
-gpt_response = response.choices[0].message.content
+gemini_response = response.text
 
-print("Response from ChatGPT:")
+print("Response from Gemini:")
 print("-" * 80)
-print(gpt_response)
+print(gemini_response)
 print("-" * 80)
+
 
 # Try to parse as JSON if possible
 try:
-    json_output = json.loads(gpt_response)
+    json_output = json.loads(gemini_response.replace("json","").replace("```",""))
     print("\nParsed JSON output:")
     print(json.dumps(json_output, indent=2))
     

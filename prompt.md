@@ -6,6 +6,8 @@ Produce a detailed kayak fishing report to identify the *best possible location 
 
 You must output **only valid JSON** (no markdown, no commentary, no text before or after the JSON).
 
+The report Generated must be based on the current date.
+
 ---
 
 ## 🎯 Requirements
@@ -58,9 +60,10 @@ Great Bridge Locks: 36.73159714569583, -76.26877437511955
 ---
 
 ## 🧾 Output Format
+- Return no markdown or prose outside this JSON object.
+- Maintain consistent key names and structure for all entries.
 Output a single JSON object with each location identified with this schema:
 
-```json
 {
   "report_generated_for": "YYYY-MM-DD",
   "locations": [
@@ -83,7 +86,3 @@ Output a single JSON object with each location identified with this schema:
     }
   ]
 }
-
-- Return no markdown or prose outside this JSON object.
-
-- Maintain consistent key names and structure for all entries.
