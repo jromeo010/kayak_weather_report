@@ -6,8 +6,14 @@ Produce a detailed kayak fishing report to identify the *best possible location 
 
 You must output **only valid JSON** (no markdown, no commentary, no text before or after the JSON).
 
-The report Generated must be based on the current date.
+**-- PRE-COMPUTATION STEP (MUST USE GOOGLE SEARCH) --**
+Before generating the JSON, you MUST first perform an exhaustive Google search for each location for Saturday and Sunday . You must search for and use the *actual* observed/forecasted data for: High Tide Time, Low Tide Time, Wind Speed & Direction, and Water Temperature. Use sources like NOAA and Tides4Fishing. Use the precise coordinates provided for the most accurate data. Do not invent any values. If data is not found, use "data unavailable".
 
+**-- OUTPUT REQUIREMENTS --**
+You must output **ONLY VALID JSON** (no markdown, no commentary, no text before or after the JSON). The final JSON must be the *only* thing returned.
+The 'report_generated_for' field MUST use the injected date.
+The `summary` field must explicitly reference at least two of the `hover_facts` values. The `rating` must be a direct result of balancing wind safety, tide timing, and water temperature.
+... [Rest of your requirements, locations, and format] ...
 ---
 
 ## 🎯 Requirements
@@ -31,7 +37,7 @@ Each entry must include:
 ---
 
 ## 📊 Data to Factor In
-Use public and current environmental data sources where possible (e.g. NOAA, tides4fishing.com, open-meteo.com):  
+Use public and current environmental data sources (e.g. NOAA, tides4fishing.com, open-meteo.com):  
 1. **Weather** — rain, sun, or cloud cover.  
 2. **Water temperature** — colder temps push fish into deeper water.  
 3. **Current speed & tidal coefficient** — slower current with transitions preferred.  
@@ -60,8 +66,8 @@ Great Bridge Locks: 36.73159714569583, -76.26877437511955
 ---
 
 ## 🧾 Output Format
-- Return no markdown or prose outside this JSON object.
-- Maintain consistent key names and structure for all entries.
+Return no markdown or prose outside this JSON object.
+Maintain consistent key names and structure for all entries.
 Output a single JSON object with each location identified with this schema:
 
 {

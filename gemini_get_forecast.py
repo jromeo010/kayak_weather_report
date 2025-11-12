@@ -2,6 +2,7 @@ import os
 import json
 from dotenv import load_dotenv
 import google.generativeai as genai
+import datetime
 
 # Load environment variables from .env file
 load_dotenv()
@@ -11,12 +12,24 @@ load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
 
+def next_weekday(d: datetime.date, target_weekday: int) -> datetime.date:
+    # target_weekday: Monday=0 ... Sunday=6
+    days_ahead = (target_weekday - d.weekday()) % 7
+    return d + datetime.timedelta(days=days_ahead)
+
+
 # Read the prompt from prompt.md
 with open('prompt.md', 'r', encoding="utf8") as file:
     prompt_content = file.read()
 
-print(prompt_content)
+today = datetime.date.today()
+current_date = today.strftime("%Y-%m-%d")
 
+upcoming_saturday = next_weekday(today, 5).strftime("%Y-%m-%d")  # Saturday
+upcoming_sunday = next_weekday(today, 6).strftime("%Y-%m-%d")    # Sunday
+
+prompt_content = f"""## ⚠️ CURRENT DATE INJECTION: Today's date is strictly {current_date}.
+All calculations and the 'report_generated_for' field MUST take into account todays date, upcoming saturday: {upcoming_saturday} and upcoming sunday: {upcoming_sunday}"""+ prompt_content 
 # Call Google Gemini API
 model = genai.GenerativeModel('gemini-2.5-flash')
 response = model.generate_content(

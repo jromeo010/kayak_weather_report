@@ -1,5 +1,5 @@
 {
-  "report_generated_for": "2024-05-16",
+  "report_generated_for": "2025-11-11",
   "locations": [
     {
       "name": "Rudee Inlet",
@@ -9,18 +9,17 @@
       ],
       "day": "Saturday",
       "rating": "good",
-      "summary": "Rudee Inlet offers excellent protection from the light morning winds, making for a comfortable paddle. The outgoing tide from late morning onward will concentrate baitfish, stimulating a strong bite. Target speckled trout and red drum around the jetties and docks.",
+      "summary": "Rudee Inlet offers good kayak fishing conditions on Saturday. Anglers will benefit from the low tide at 6:49 AM, transitioning to incoming water, and manageable WNW winds at 7-9 mph. The water temperature is a cool 55\u00b0F, suggesting fish may be in deeper channels or structure.",
       "hover_facts": {
-        "high_tide": "9:35 AM",
-        "low_tide": "3:45 PM",
-        "wind_speed": "5 mph",
-        "wind_direction": "NE",
-        "water_temp": "69\u00b0F",
-        "current_speed": "0.7 knots",
+        "high_tide": "1:04 PM",
+        "low_tide": "6:49 AM",
+        "wind_speed": "7-9 mph",
+        "wind_direction": "WNW",
+        "water_temp": "55\u00b0F",
+        "current_speed": "data unavailable (stronger during tide changes)",
         "extra_notes": [
           "protected inlet",
-          "active trout bite",
-          "flounder near mouth"
+          "good for fall fishing"
         ]
       },
       "color": "green"
@@ -33,18 +32,16 @@
       ],
       "day": "Sunday",
       "rating": "okay",
-      "summary": "Sunday brings slightly stronger winds, which could make the inlet mouth a bit choppy for kayaks later in the morning. The outgoing tide remains favorable for fishing, especially in the calmer backwaters. Focus on areas with current breaks to find feeding fish.",
+      "summary": "Conditions are okay for Sunday, with a low tide at 7:38 AM offering a good incoming tide period within the fishing window. However, winds increase slightly to 8-12 mph from the NW, which could create some chop near the inlet mouth. The water temperature is a chilly 54\u00b0F, requiring warm gear and slower presentations.",
       "hover_facts": {
-        "high_tide": "10:15 AM",
-        "low_tide": "4:20 PM",
-        "wind_speed": "9 mph",
-        "wind_direction": "SE",
-        "water_temp": "70\u00b0F",
-        "current_speed": "0.9 knots",
+        "high_tide": "1:52 PM (outside window)",
+        "low_tide": "7:38 AM",
+        "wind_speed": "8-12 mph",
+        "wind_direction": "NW",
+        "water_temp": "54\u00b0F",
+        "current_speed": "data unavailable (stronger during tide changes)",
         "extra_notes": [
-          "can get choppy",
-          "fish structure",
-          "look for bait schools"
+          "similar conditions, slightly cooler"
         ]
       },
       "color": "yellow"
@@ -56,46 +53,43 @@
         -76.0173732545823
       ],
       "day": "Saturday",
+      "rating": "good",
+      "summary": "This location offers good conditions with sheltered bay waters and manageable 7-9 mph WNW winds. A low tide around 7:15 AM provides a favorable incoming tide period for targeting speckled trout and red drum. The water temperature is 55\u00b0F, typical for mid-November.",
+      "hover_facts": {
+        "high_tide": "~1:30 PM",
+        "low_tide": "~7:15 AM",
+        "wind_speed": "7-9 mph",
+        "wind_direction": "WNW",
+        "water_temp": "55\u00b0F",
+        "current_speed": "data unavailable (slower in back bays, stronger near inlets)",
+        "extra_notes": [
+          "sheltered bay",
+          "good for red drum, speckled trout"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "name": "64th Street Boat Ramp",
+      "coordinates": [
+        36.88868936574738,
+        -76.0173732545823
+      ],
+      "day": "Sunday",
       "rating": "okay",
-      "summary": "The 64th Street area offers access to productive waters but is somewhat exposed to the prevailing northeast wind. An early start will capitalize on calmer conditions before the wind picks up. Focus on the outgoing tide for flounder and red drum around the channel edges.",
+      "summary": "Sunday's conditions are okay, with a low tide around 8:00 AM providing a productive incoming tide through the morning. Winds at 8-12 mph from the NW might create some chop on larger sections of the bay, but sheltered areas should still be fishable. The 54\u00b0F water temperature indicates fish will be seeking deeper pockets or sun-warmed shallows.",
       "hover_facts": {
-        "high_tide": "9:45 AM",
-        "low_tide": "3:55 PM",
-        "wind_speed": "7 mph",
-        "wind_direction": "NE",
-        "water_temp": "68\u00b0F",
-        "current_speed": "0.6 knots",
+        "high_tide": "2:15 PM (outside window)",
+        "low_tide": "~8:00 AM",
+        "wind_speed": "8-12 mph",
+        "wind_direction": "NW",
+        "water_temp": "54\u00b0F",
+        "current_speed": "data unavailable (slower in back bays, stronger near inlets)",
         "extra_notes": [
-          "exposed to wind",
-          "good flounder grounds",
-          "current breaks"
+          "potential for calm waters despite NW wind"
         ]
       },
       "color": "yellow"
-    },
-    {
-      "name": "64th Street Boat Ramp",
-      "coordinates": [
-        36.88868936574738,
-        -76.0173732545823
-      ],
-      "day": "Sunday",
-      "rating": "bad",
-      "summary": "Stronger southeast winds on Sunday will make this exposed location challenging and potentially unsafe for kayak fishing. The chop will make casting and maneuvering difficult, diminishing the overall fishing experience. Consider more protected locations for better conditions.",
-      "hover_facts": {
-        "high_tide": "10:25 AM",
-        "low_tide": "4:30 PM",
-        "wind_speed": "14 mph",
-        "wind_direction": "SE",
-        "water_temp": "69\u00b0F",
-        "current_speed": "0.8 knots",
-        "extra_notes": [
-          "too windy for kayaks",
-          "rough water ahead",
-          "safety first"
-        ]
-      },
-      "color": "red"
     },
     {
       "name": "Lynnhaven Boat Ramp",
@@ -105,18 +99,17 @@
       ],
       "day": "Saturday",
       "rating": "good",
-      "summary": "Lynnhaven Inlet provides excellent protection from the light winds, creating ideal kayak fishing conditions. The outgoing tide will be strong, flushing bait from the creeks and concentrating fish. This is a prime spot for speckled trout and puppy drum action.",
+      "summary": "Lynnhaven Bay offers good conditions for Saturday with a low tide at 7:25 AM, providing an excellent incoming tide period within the fishing window. The 7-9 mph WNW winds are manageable for kayaking, allowing access to the bay's productive oyster beds. Water temperature is 55\u00b0F, typical for fall.",
       "hover_facts": {
-        "high_tide": "10:05 AM",
-        "low_tide": "4:15 PM",
-        "wind_speed": "4 mph",
-        "wind_direction": "N",
-        "water_temp": "70\u00b0F",
-        "current_speed": "0.8 knots",
+        "high_tide": "1:44 PM",
+        "low_tide": "7:25 AM",
+        "wind_speed": "7-9 mph",
+        "wind_direction": "WNW",
+        "water_temp": "55\u00b0F",
+        "current_speed": "data unavailable (stronger near inlet)",
         "extra_notes": [
-          "very protected water",
-          "active trout and drum",
-          "oyster beds nearby"
+          "large productive bay",
+          "oyster beds"
         ]
       },
       "color": "green"
@@ -128,22 +121,20 @@
         -76.0927833651844
       ],
       "day": "Sunday",
-      "rating": "good",
-      "summary": "Despite slightly stronger southeast winds, Lynnhaven's numerous creeks and coves offer ample protected water for a comfortable fishing experience. The outgoing tide continues to be favorable, making structure and creek mouths productive targets. Expect a good bite throughout the morning.",
+      "rating": "okay",
+      "summary": "Sunday is an okay day for Lynnhaven, with a low tide at 8:14 AM setting up a strong incoming current for the morning. Winds increase slightly to 8-12 mph from the NW, which can make exposed areas choppy, but anglers can find good protection within the bay. The water temperature is 54\u00b0F, indicating cooler fishing.",
       "hover_facts": {
-        "high_tide": "10:45 AM",
-        "low_tide": "4:50 PM",
-        "wind_speed": "8 mph",
-        "wind_direction": "SE",
-        "water_temp": "71\u00b0F",
-        "current_speed": "0.7 knots",
+        "high_tide": "2:32 PM (outside window)",
+        "low_tide": "8:14 AM",
+        "wind_speed": "8-12 mph",
+        "wind_direction": "NW",
+        "water_temp": "54\u00b0F",
+        "current_speed": "data unavailable (stronger near inlet)",
         "extra_notes": [
-          "still very protected",
-          "great for sight fishing",
-          "flounder in channels"
+          "good protection from NW winds in certain areas of the bay"
         ]
       },
-      "color": "green"
+      "color": "yellow"
     },
     {
       "name": "CBBT First Island",
@@ -153,18 +144,18 @@
       ],
       "day": "Saturday",
       "rating": "okay",
-      "summary": "This iconic location offers incredible fishing potential but demands an early start to beat the wind and currents. The outgoing tide around the structure can be very productive for stripers and drum. Only experienced kayakers should venture here, especially as winds pick up.",
+      "summary": "Kayak fishing at CBBT First Island is okay on Saturday, with a low tide at 7:06 AM providing favorable incoming current around the structure. However, winds at 8-12 mph from the WNW can make conditions choppy and challenging in this exposed location. The water temperature is a cool 53\u00b0F, requiring proper cold-weather gear.",
       "hover_facts": {
-        "high_tide": "9:55 AM",
-        "low_tide": "4:05 PM",
-        "wind_speed": "6 mph",
-        "wind_direction": "NE",
-        "water_temp": "68\u00b0F",
-        "current_speed": "1.2 knots",
+        "high_tide": "1:19 PM",
+        "low_tide": "7:06 AM",
+        "wind_speed": "8-12 mph",
+        "wind_direction": "WNW",
+        "water_temp": "53\u00b0F",
+        "current_speed": "0.5-1.5 knots (strong near bridge structure)",
         "extra_notes": [
+          "exposed to wind",
           "strong currents",
-          "exposed to wind",
-          "big fish potential"
+          "excellent structure for fish"
         ]
       },
       "color": "yellow"
@@ -177,18 +168,16 @@
       ],
       "day": "Sunday",
       "rating": "bad",
-      "summary": "With strong southeast winds and powerful currents, CBBT First Island will be extremely challenging and hazardous for kayak fishing. Conditions will be rough, making it difficult to maintain position or safely navigate. It's best to avoid this exposed area today.",
+      "summary": "Sunday is a bad day for kayak fishing at CBBT First Island due to high winds. Sustained NW winds of 10-15 mph, coupled with strong currents of 0.5-1.5 knots, will create dangerous conditions for kayaks. The cold water temperature of 52\u00b0F further increases safety risks.",
       "hover_facts": {
-        "high_tide": "10:35 AM",
-        "low_tide": "4:40 PM",
-        "wind_speed": "15 mph",
-        "wind_direction": "SE",
-        "water_temp": "69\u00b0F",
-        "current_speed": "1.5 knots",
+        "high_tide": "2:07 PM (outside window)",
+        "low_tide": "7:55 AM",
+        "wind_speed": "10-15 mph",
+        "wind_direction": "NW",
+        "water_temp": "52\u00b0F",
+        "current_speed": "0.5-1.5 knots (strong near bridge structure)",
         "extra_notes": [
-          "unsafe conditions",
-          "very strong currents",
-          "high wind warning"
+          "high winds make kayak fishing very challenging and unsafe"
         ]
       },
       "color": "red"
@@ -201,18 +190,18 @@
       ],
       "day": "Saturday",
       "rating": "okay",
-      "summary": "The HRBT offers unique structure fishing opportunities but also presents strong currents and moderate exposure. Target the bridge pilings and rock structure during the outgoing tide for striped bass and drum. An early morning start is advised to avoid heavier boat traffic.",
+      "summary": "Kayak fishing at HRBT Norfolk Side is okay on Saturday, with a low tide at 7:47 AM providing a good incoming tide period for fishing around the bridge structure. Winds at 8-12 mph from the WNW will make conditions moderately choppy and require careful navigation. The water temperature is 53\u00b0F, typical for fall.",
       "hover_facts": {
-        "high_tide": "11:10 AM",
-        "low_tide": "5:20 PM",
-        "wind_speed": "7 mph",
-        "wind_direction": "E",
-        "water_temp": "69\u00b0F",
-        "current_speed": "1.0 knots",
+        "high_tide": "2:00 PM (outside window)",
+        "low_tide": "7:47 AM",
+        "wind_speed": "8-12 mph",
+        "wind_direction": "WNW",
+        "water_temp": "53\u00b0F",
+        "current_speed": "0.5-1.0 knots (strong near bridge structure)",
         "extra_notes": [
-          "strong tidal flow",
-          "boat traffic",
-          "striped bass near structure"
+          "exposed to wind",
+          "strong currents",
+          "good structure"
         ]
       },
       "color": "yellow"
@@ -224,91 +213,86 @@
         -76.3007005941211
       ],
       "day": "Sunday",
-      "rating": "okay",
-      "summary": "Similar to Saturday, strong currents and increased southeast winds will make fishing around the HRBT a challenging but potentially rewarding experience. Focus on current seams and protected sides of structure for feeding fish. Requires careful navigation and good kayak handling skills.",
+      "rating": "bad",
+      "summary": "Sunday is a bad day for kayak fishing at HRBT Norfolk Side due to elevated winds. NW winds of 10-15 mph, combined with strong currents of 0.5-1.0 knots, will create hazardous conditions for kayaks. The cold water temperature of 52\u00b0F further exacerbates safety concerns.",
       "hover_facts": {
-        "high_tide": "11:50 AM",
-        "low_tide": "6:00 PM",
-        "wind_speed": "10 mph",
-        "wind_direction": "SE",
-        "water_temp": "70\u00b0F",
-        "current_speed": "1.1 knots",
-        "extra_notes": [
-          "challenging conditions",
-          "use caution",
-          "drum and flounder possible"
-        ]
-      },
-      "color": "yellow"
-    },
-    {
-      "name": "HRBT Hampton Side",
-      "coordinates": [
-        37.00527555712451,
-        -76.32249782369962
-      ],
-      "day": "Saturday",
-      "rating": "okay",
-      "summary": "The Hampton side of the HRBT presents similar conditions to Norfolk, with strong currents and good structure for fishing. Light easterly winds make for a manageable morning, but prepare for strong outgoing currents. Target flounder and stripers around the bridge pilings.",
-      "hover_facts": {
-        "high_tide": "11:20 AM",
-        "low_tide": "5:30 PM",
-        "wind_speed": "6 mph",
-        "wind_direction": "E",
-        "water_temp": "69\u00b0F",
-        "current_speed": "1.0 knots",
-        "extra_notes": [
-          "good structure fishing",
-          "watch for boat traffic",
-          "requires strong paddling"
-        ]
-      },
-      "color": "yellow"
-    },
-    {
-      "name": "HRBT Hampton Side",
-      "coordinates": [
-        37.00527555712451,
-        -76.32249782369962
-      ],
-      "day": "Sunday",
-      "rating": "okay",
-      "summary": "Increased southeast winds will add to the challenge here, making it best suited for experienced kayakers. The strong outgoing tide will be in full swing by late morning, which can be productive but requires careful handling. Focus on the most protected areas near the bridge.",
-      "hover_facts": {
-        "high_tide": "12:00 PM",
-        "low_tide": "6:10 PM",
-        "wind_speed": "10 mph",
-        "wind_direction": "SE",
-        "water_temp": "70\u00b0F",
-        "current_speed": "1.1 knots",
-        "extra_notes": [
-          "wind against current",
-          "fish close to structure",
-          "check buoy lines"
-        ]
-      },
-      "color": "yellow"
-    },
-    {
-      "name": "Lafayette River",
-      "coordinates": [
-        36.891751661236654,
-        -76.28609524133789
-      ],
-      "day": "Saturday",
-      "rating": "good",
-      "summary": "The Lafayette River is an excellent choice for a calm and protected kayak fishing experience, especially with light winds. The slightly delayed outgoing tide will draw fish out of the smaller creeks and into the main river channel. Look for speckled trout and puppy drum in the shallow flats.",
-      "hover_facts": {
-        "high_tide": "11:30 AM",
-        "low_tide": "5:40 PM",
-        "wind_speed": "3 mph",
+        "high_tide": "2:48 PM (outside window)",
+        "low_tide": "8:36 AM",
+        "wind_speed": "10-15 mph",
         "wind_direction": "NW",
-        "water_temp": "71\u00b0F",
-        "current_speed": "0.3 knots",
+        "water_temp": "52\u00b0F",
+        "current_speed": "0.5-1.0 knots (strong near bridge structure)",
         "extra_notes": [
-          "very calm waters",
-          "great for beginners",
-          "active trout in creeks"
+          "high winds make kayak fishing very challenging and unsafe"
+        ]
+      },
+      "color": "red"
+    },
+    {
+      "name": "HRBT Hampton Side",
+      "coordinates": [
+        37.00527555712451,
+        -76.32249782369962
+      ],
+      "day": "Saturday",
+      "rating": "okay",
+      "summary": "Kayak fishing at HRBT Hampton Side is okay on Saturday, with a low tide at 7:47 AM providing a good incoming tide period for fishing around the bridge structure. Winds at 8-12 mph from the WNW will make conditions moderately choppy and require careful navigation. The water temperature is 53\u00b0F, typical for fall.",
+      "hover_facts": {
+        "high_tide": "2:00 PM (outside window)",
+        "low_tide": "7:47 AM",
+        "wind_speed": "8-12 mph",
+        "wind_direction": "WNW",
+        "water_temp": "53\u00b0F",
+        "current_speed": "0.5-1.0 knots (strong near bridge structure)",
+        "extra_notes": [
+          "exposed to wind",
+          "strong currents",
+          "good structure"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "name": "HRBT Hampton Side",
+      "coordinates": [
+        37.00527555712451,
+        -76.32249782369962
+      ],
+      "day": "Sunday",
+      "rating": "bad",
+      "summary": "Sunday is a bad day for kayak fishing at HRBT Hampton Side due to elevated winds. NW winds of 10-15 mph, combined with strong currents of 0.5-1.0 knots, will create hazardous conditions for kayaks. The cold water temperature of 52\u00b0F further exacerbates safety concerns.",
+      "hover_facts": {
+        "high_tide": "2:48 PM (outside window)",
+        "low_tide": "8:36 AM",
+        "wind_speed": "10-15 mph",
+        "wind_direction": "NW",
+        "water_temp": "52\u00b0F",
+        "current_speed": "0.5-1.0 knots (strong near bridge structure)",
+        "extra_notes": [
+          "high winds make kayak fishing very challenging and unsafe"
+        ]
+      },
+      "color": "red"
+    },
+    {
+      "name": "Lafayette River",
+      "coordinates": [
+        36.891751661236654,
+        -76.28609524133789
+      ],
+      "day": "Saturday",
+      "rating": "good",
+      "summary": "The Lafayette River offers good kayak fishing conditions on Saturday, with manageable 5-8 mph WNW winds making for calm, protected waters. The low tide at 8:12 AM provides a favorable incoming tide for targeting speckled trout and red drum in the river's bends. Water temperature is 54\u00b0F, typical for fall.",
+      "hover_facts": {
+        "high_tide": "2:26 PM (outside window)",
+        "low_tide": "8:12 AM",
+        "wind_speed": "5-8 mph",
+        "wind_direction": "WNW",
+        "water_temp": "54\u00b0F",
+        "current_speed": "0.3-0.7 knots (moderate, slower than main channels)",
+        "extra_notes": [
+          "sheltered river",
+          "good for speckled trout and red drum"
         ]
       },
       "color": "green"
@@ -321,18 +305,17 @@
       ],
       "day": "Sunday",
       "rating": "good",
-      "summary": "This river remains a top choice on Sunday, offering continued protection from the increasing southeast winds. The gentle outgoing tide will provide consistent fishing action throughout the morning. Ideal for a relaxed trip targeting resident fish in a peaceful setting.",
+      "summary": "Sunday remains a good day for kayak fishing on the Lafayette River due to its sheltered nature, even with NW winds increasing to 7-10 mph. A low tide at 9:01 AM ensures a productive incoming tide period throughout the morning. The 53\u00b0F water temperature suggests focusing on deeper holes and structure where fish might congregate.",
       "hover_facts": {
-        "high_tide": "12:10 PM",
-        "low_tide": "6:20 PM",
-        "wind_speed": "7 mph",
-        "wind_direction": "SE",
-        "water_temp": "72\u00b0F",
-        "current_speed": "0.4 knots",
+        "high_tide": "3:15 PM (outside window)",
+        "low_tide": "9:01 AM",
+        "wind_speed": "7-10 mph",
+        "wind_direction": "NW",
+        "water_temp": "53\u00b0F",
+        "current_speed": "0.3-0.7 knots (moderate, slower than main channels)",
         "extra_notes": [
-          "sheltered from wind",
-          "good for fly fishing",
-          "residential docks hold fish"
+          "good protection from NW winds",
+          "focus on deeper bends"
         ]
       },
       "color": "green"
@@ -344,22 +327,20 @@
         -76.28967377471284
       ],
       "day": "Saturday",
-      "rating": "okay",
-      "summary": "The Elizabeth River near Jordan Bridge offers some protected waters and structure fishing, despite its industrial surroundings. The outgoing tide will be good for concentrating fish around pilings and submerged features. Be mindful of potential boat traffic in the deeper channels.",
+      "rating": "good",
+      "summary": "This location offers good kayak fishing conditions on Saturday, benefiting from sheltered waters and light WNW winds at 5-8 mph. A low tide at 9:00 AM provides an excellent incoming tide for targeting striped bass and red drum. The water temperature is 54\u00b0F, typical for the season.",
       "hover_facts": {
-        "high_tide": "11:45 AM",
-        "low_tide": "5:55 PM",
-        "wind_speed": "5 mph",
-        "wind_direction": "E",
-        "water_temp": "70\u00b0F",
-        "current_speed": "0.5 knots",
+        "high_tide": "3:00 PM (outside window)",
+        "low_tide": "9:00 AM",
+        "wind_speed": "5-8 mph",
+        "wind_direction": "WNW",
+        "water_temp": "54\u00b0F",
+        "current_speed": "0.4-0.8 knots (can be strong in narrow sections)",
         "extra_notes": [
-          "industrial backdrop",
-          "fish bridge structure",
-          "potential for stripers"
+          "industrial area, but good fishing for stripers, red drum"
         ]
       },
-      "color": "yellow"
+      "color": "green"
     },
     {
       "name": "Elizabeth River Jordan Bridge",
@@ -368,22 +349,20 @@
         -76.28967377471284
       ],
       "day": "Sunday",
-      "rating": "okay",
-      "summary": "Conditions remain similar to Saturday, with moderate protection from the southeast wind, though currents can be significant. The outgoing tide will continue to be the most productive time for targeting various species. Focus on areas with good current breaks and submerged cover.",
+      "rating": "good",
+      "summary": "Sunday remains a good option, with the Elizabeth River offering protection from 7-10 mph NW winds. The low tide at 9:49 AM ensures an active incoming tide period during the morning. The 53\u00b0F water temperature means fish will be less active, so a slow presentation near structure is advised.",
       "hover_facts": {
-        "high_tide": "12:25 PM",
-        "low_tide": "6:35 PM",
-        "wind_speed": "9 mph",
-        "wind_direction": "SE",
-        "water_temp": "71\u00b0F",
-        "current_speed": "0.6 knots",
+        "high_tide": "3:49 PM (outside window)",
+        "low_tide": "9:49 AM",
+        "wind_speed": "7-10 mph",
+        "wind_direction": "NW",
+        "water_temp": "53\u00b0F",
+        "current_speed": "0.4-0.8 knots (can be strong in narrow sections)",
         "extra_notes": [
-          "can be busy",
-          "look for eddies",
-          "red drum are possible"
+          "good protection, but watch for boat traffic"
         ]
       },
-      "color": "yellow"
+      "color": "green"
     },
     {
       "name": "Kiptopeake",
@@ -393,18 +372,17 @@
       ],
       "day": "Saturday",
       "rating": "okay",
-      "summary": "Kiptopeake offers access to the lower Chesapeake Bay, known for diverse species, but it is quite exposed to wind and open water. Light northerly winds in the morning make it manageable for experienced paddlers. Target the concrete ships and structure for tautog, drum, and flounder.",
+      "summary": "Kiptopeake offers okay kayak fishing on Saturday, with a low tide at 7:27 AM providing a good incoming tide for fishing around the wrecks. However, winds at 8-12 mph from the WNW will make this exposed bay location challenging for kayaks. The water temperature is a cool 53\u00b0F, suggesting slower fish activity.",
       "hover_facts": {
-        "high_tide": "9:20 AM",
-        "low_tide": "3:30 PM",
-        "wind_speed": "6 mph",
-        "wind_direction": "N",
-        "water_temp": "67\u00b0F",
-        "current_speed": "0.9 knots",
+        "high_tide": "1:40 PM",
+        "low_tide": "7:27 AM",
+        "wind_speed": "8-12 mph",
+        "wind_direction": "WNW",
+        "water_temp": "53\u00b0F",
+        "current_speed": "0.5-1.0 knots (moderate, stronger near structures)",
         "extra_notes": [
-          "exposed bay access",
-          "historic concrete ships",
-          "requires good weather"
+          "exposed bay",
+          "good for migratory fish, wrecks nearby"
         ]
       },
       "color": "yellow"
@@ -417,18 +395,16 @@
       ],
       "day": "Sunday",
       "rating": "bad",
-      "summary": "Strong southeast winds will create very rough and unsafe conditions for kayak fishing at Kiptopeake. The exposed nature of this location makes it highly susceptible to chop and strong currents. It is strongly advised to choose a more sheltered spot today.",
+      "summary": "Sunday is a bad day for kayak fishing at Kiptopeake due to high winds. NW winds of 10-15 mph will create unsafe and extremely challenging conditions in this exposed bay. The cold water temperature of 52\u00b0F further increases the risk of hypothermia if capsizing occurs.",
       "hover_facts": {
-        "high_tide": "10:00 AM",
-        "low_tide": "4:10 PM",
-        "wind_speed": "16 mph",
-        "wind_direction": "SE",
-        "water_temp": "68\u00b0F",
-        "current_speed": "1.2 knots",
+        "high_tide": "2:28 PM (outside window)",
+        "low_tide": "8:16 AM",
+        "wind_speed": "10-15 mph",
+        "wind_direction": "NW",
+        "water_temp": "52\u00b0F",
+        "current_speed": "0.5-1.0 knots (moderate, stronger near structures)",
         "extra_notes": [
-          "dangerous conditions",
-          "high waves likely",
-          "avoid open bay"
+          "high winds make kayak fishing very challenging and unsafe"
         ]
       },
       "color": "red"
@@ -441,18 +417,17 @@
       ],
       "day": "Saturday",
       "rating": "okay",
-      "summary": "Oyster provides access to prime Eastern Shore bay fishing, particularly for red drum and speckled trout. Light northerly winds make for a reasonable morning, but the area is exposed. The outgoing tide will be key for targeting fish in the channels and around marsh edges.",
+      "summary": "Kayak fishing from Oyster Boat Ramp is okay on Saturday, especially if focusing on the protected marsh creeks. While the low tide at 8:16 AM provides a good incoming tide, the 8-12 mph WNW winds will make open bay areas choppy and exposed. The water temperature is 53\u00b0F, suggesting fish may be holding in deeper holes or sun-warmed shallows.",
       "hover_facts": {
-        "high_tide": "9:10 AM",
-        "low_tide": "3:20 PM",
-        "wind_speed": "7 mph",
-        "wind_direction": "N",
-        "water_temp": "67\u00b0F",
-        "current_speed": "0.8 knots",
+        "high_tide": "2:36 PM (outside window)",
+        "low_tide": "8:16 AM",
+        "wind_speed": "8-12 mph",
+        "wind_direction": "WNW",
+        "water_temp": "53\u00b0F",
+        "current_speed": "0.4-0.8 knots (can be strong in channels)",
         "extra_notes": [
-          "good for red drum",
-          "marsh fishing",
-          "some exposure"
+          "access to productive marsh creeks and flats",
+          "exposed to bay winds"
         ]
       },
       "color": "yellow"
@@ -465,18 +440,16 @@
       ],
       "day": "Sunday",
       "rating": "bad",
-      "summary": "With strong southeast winds, Oyster will be extremely exposed and dangerous for kayak fishing. The open bay conditions will create significant chop and strong currents, making it nearly impossible to fish effectively or safely. Seek out highly protected inland waters instead.",
+      "summary": "Sunday is a bad day for kayak fishing from Oyster Boat Ramp, primarily due to high winds. NW winds of 10-15 mph will make open bay and channel areas extremely hazardous and difficult to navigate. Anglers should avoid this location or stick strictly to the most protected, narrow marsh creeks if venturing out in the 52\u00b0F water.",
       "hover_facts": {
-        "high_tide": "9:50 AM",
-        "low_tide": "4:00 PM",
-        "wind_speed": "17 mph",
-        "wind_direction": "SE",
-        "water_temp": "68\u00b0F",
-        "current_speed": "1.1 knots",
+        "high_tide": "3:24 PM (outside window)",
+        "low_tide": "9:05 AM",
+        "wind_speed": "10-15 mph",
+        "wind_direction": "NW",
+        "water_temp": "52\u00b0F",
+        "current_speed": "0.4-0.8 knots (can be strong in channels)",
         "extra_notes": [
-          "very high winds",
-          "unsafe for kayaks",
-          "stay home or find shelter"
+          "high winds make open bay areas difficult, stick to protected creeks"
         ]
       },
       "color": "red"
@@ -489,18 +462,17 @@
       ],
       "day": "Saturday",
       "rating": "good",
-      "summary": "Back River offers excellent protection and calmer waters, making it a prime kayak fishing destination for the weekend. The outgoing tide will be beneficial for targeting speckled trout and puppy drum in the creeks and along the marsh banks. Expect a comfortable and productive morning.",
+      "summary": "Back River Hampton offers good kayak fishing conditions on Saturday, with manageable 7-10 mph WNW winds providing some shelter within the river system. The low tide at 8:04 AM allows for a good incoming tide period, which is often productive for marsh fishing. Water temperature is 54\u00b0F, requiring anglers to dress warmly.",
       "hover_facts": {
-        "high_tide": "11:00 AM",
-        "low_tide": "5:10 PM",
-        "wind_speed": "4 mph",
-        "wind_direction": "NW",
-        "water_temp": "70\u00b0F",
-        "current_speed": "0.4 knots",
+        "high_tide": "2:19 PM (outside window)",
+        "low_tide": "8:04 AM",
+        "wind_speed": "7-10 mph",
+        "wind_direction": "WNW",
+        "water_temp": "54\u00b0F",
+        "current_speed": "0.3-0.7 knots (moderate, slower in upper reaches)",
         "extra_notes": [
-          "well-protected",
-          "good marsh habitat",
-          "active trout bite"
+          "good marsh fishing",
+          "sheltered from WNW winds"
         ]
       },
       "color": "green"
@@ -512,22 +484,20 @@
         -76.32008232767723
       ],
       "day": "Sunday",
-      "rating": "good",
-      "summary": "Back River remains a top pick for Sunday, providing continued shelter from the increasing southeast winds. The outgoing tide will still be favorable for fishing the various creeks and channels. This location offers consistent action and a comfortable paddling environment.",
+      "rating": "okay",
+      "summary": "Sunday is an okay day for Back River Hampton, with a low tide at 8:53 AM providing a good incoming tide. However, NW winds increasing to 9-13 mph can funnel down the river, creating chop in more exposed sections. The 53\u00b0F water temperature means fish will be less active, so targeting deeper channels is recommended.",
       "hover_facts": {
-        "high_tide": "11:40 AM",
-        "low_tide": "5:50 PM",
-        "wind_speed": "8 mph",
-        "wind_direction": "SE",
-        "water_temp": "71\u00b0F",
-        "current_speed": "0.5 knots",
+        "high_tide": "3:07 PM (outside window)",
+        "low_tide": "8:53 AM",
+        "wind_speed": "9-13 mph",
+        "wind_direction": "NW",
+        "water_temp": "53\u00b0F",
+        "current_speed": "0.3-0.7 knots (moderate, slower in upper reaches)",
         "extra_notes": [
-          "calm waters",
-          "good for light tackle",
-          "fish docks and oyster beds"
+          "good protection, but wind can funnel down the river"
         ]
       },
-      "color": "green"
+      "color": "yellow"
     },
     {
       "name": "Great Bridge Locks",
@@ -537,18 +507,18 @@
       ],
       "day": "Saturday",
       "rating": "good",
-      "summary": "Great Bridge Locks offers a unique freshwater/brackish fishing experience with minimal tidal influence and excellent wind protection. Focus on areas around the locks and canal edges for bass, crappie, and catfish. This is a perfect spot for a calm and relaxing paddle.",
+      "summary": "Great Bridge Locks offers excellent kayak fishing conditions on Saturday due to its very sheltered nature, with light WNW winds at 5-8 mph. This freshwater/brackish system has minimal tidal influence, providing stable water levels. The relatively warmer 56\u00b0F water temperature is favorable for bass, crappie, and catfish.",
       "hover_facts": {
         "high_tide": "data unavailable",
         "low_tide": "data unavailable",
-        "wind_speed": "3 mph",
-        "wind_direction": "W",
-        "water_temp": "72\u00b0F",
-        "current_speed": "0.2 knots",
+        "wind_speed": "5-8 mph",
+        "wind_direction": "WNW",
+        "water_temp": "56\u00b0F",
+        "current_speed": "0.1-0.3 knots (wind-driven or lock operations)",
         "extra_notes": [
-          "freshwater species",
-          "extremely calm",
-          "good for family outing"
+          "freshwater/brackish",
+          "good for bass, crappie, catfish, some stripers",
+          "very sheltered"
         ]
       },
       "color": "green"
@@ -561,18 +531,17 @@
       ],
       "day": "Sunday",
       "rating": "good",
-      "summary": "This location continues to be a top choice for Sunday, unaffected by the stronger bay winds due to its inland and protected nature. Current flow is primarily controlled by lock operations, offering stable conditions. Expect a peaceful day targeting a variety of freshwater species.",
+      "summary": "Sunday remains a good day for kayak fishing at Great Bridge Locks, offering excellent shelter from 7-10 mph NW winds. The minimal tidal influence provides stable fishing conditions throughout the morning. The 55\u00b0F water temperature is still conducive for freshwater species, making it a reliable choice.",
       "hover_facts": {
         "high_tide": "data unavailable",
         "low_tide": "data unavailable",
-        "wind_speed": "6 mph",
-        "wind_direction": "S",
-        "water_temp": "73\u00b0F",
-        "current_speed": "0.2 knots",
+        "wind_speed": "7-10 mph",
+        "wind_direction": "NW",
+        "water_temp": "55\u00b0F",
+        "current_speed": "0.1-0.3 knots (wind-driven or lock operations)",
         "extra_notes": [
-          "no tidal concerns",
-          "very safe for kayaks",
-          "bass and panfish"
+          "excellent shelter from NW winds",
+          "stable fishing conditions"
         ]
       },
       "color": "green"
